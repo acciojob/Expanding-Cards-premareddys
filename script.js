@@ -6,5 +6,5 @@ function expandPanel(panelNumber) {
     });
 
     // Add 'active' class to the clicked panel
-    document.getElementById('panel-${panelNumber}').classList.add('active');
+    document.getElementById(`panel-${panelNumber}`).classList.add('active');
   }
